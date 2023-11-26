@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+}
+
+.calculator {
+  width: 40%;
+  color: #063102;
+}
+
+.heading h3 {
+  font-size: 25px;
+  color: #0c8d00;
+}
+#message {
+  font-size: 20px;
+  color: #063102;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+.input-group label {
+  display: block;
+}
+
+.input-group input,
+.input-group button,
+.input-group select {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #0c8d00;
+  outline: none;
+  border-radius: 5px;
+}
+.input-group button {
+  background-color: #0c8d00;
+  color: #fff;
+}
+
+.results {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.09);
+  width: 50%;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chart-container {
+  margin-right: 20px;
+}
+
+#table-container {
+  text-align: left;
+  width: 80%;
+  max-width: 600px; 
+  margin: -150px 0 0 20px; 
+}
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#data-table th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+
+
+#data-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#data-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+
+#data-table th, #data-table td {
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+
+
+#data-table tbody tr:first-child td {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#data-table tbody tr:last-child td {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#history-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#history-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#history-list li {
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
